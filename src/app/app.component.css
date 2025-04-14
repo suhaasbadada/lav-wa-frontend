@@ -1,4 +1,61 @@
-textarea {
-    font-family: monospace;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(111, 107, 178);
+  }
+  
+  select, textarea, button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  select:focus, textarea:focus, button:focus {
+    outline: none;
+    border-color: rgb(111, 107, 178);
+  }
+  
+  button {
+    background-color: rgb(111, 107, 178);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(53, 50, 94)
+  }
+  
+  .preview-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .preview-container iframe, .preview-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
   }
   
